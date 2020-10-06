@@ -1,0 +1,159 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*-----Nav------*/
+.nav{
+    display: flex;
+    width: 100%;
+    height: 575px;
+}
+
+.menu{
+    background: rgb(50, 106, 236);
+    box-shadow: 0px 0px 0px 2px #326AEC;
+    height: 60px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 60px;
+}
+
+.logo{
+    float: left;
+}
+
+.mnu{
+    margin-right: 8px;
+    float: right;
+}
+
+.mnu ul{
+    height: 60px;
+    display: flex;
+}
+
+.mnu ul li{
+    margin: 6px;
+    align-self: center;
+}
+
+.logo img{
+    box-shadow: 0px 0px 0px 2px #326AEC;
+    width: 67px;
+    border-radius: 60px;
+}
+
+.mtex{
+    height: 100%;
+    display: flex;
+}
+
+.mtext{
+    align-self: center;
+    width: 80%;
+    margin: auto;
+}
+
+.mtext h1{
+    color: white;
+    background: url(img/abstract-1920x1080-3d-colorful-8k-21250.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+}
+
+.mtext h5{
+    font-size: larger;
+}
+
+.mtext button{
+    box-shadow: 0px 0px 13px 3px #278ea5;
+    outline: none;
+    padding: 15px;
+    margin-left: 10px;
+    border: none;
+    background: linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
+    border-radius: 22px;
+    font-size: medium;
+}
+
+.nv{
+    width: 50%;
+}
+
+#nv1{
+    height: 100%;
+    width: 50%;
+    background: url(img/banner-04.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.svg svg{
+    position: absolute;
+    bottom: 0;
+}
+
+/*----Servicos-----*/
+
+.servicos{
+    margin: 10px auto;
+}
+
+.servico{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(281px, 1fr));
+    width: 999px;
+    margin: auto;
+}
+
+.servic{
+    padding: 10px;
+    margin:10px auto;
+    width: 245px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 3px whitesmoke;
+}
+
+.hr{
+    border:1px solid #17b978;
+    width: 5%;
+}
+
+.img{
+    width: max-content;
+    margin: auto;
+    box-shadow: 0px 0px 0px 2px #17b978;
+    border-radius: 11px;
+    transform: rotate(45deg);
+}
+
+.img img{
+    transform: rotate(-45deg);
+    width: 49px;
+    padding: 8px;
+}
+
+.text h1{
+    color: #a7ff83;
+    font-size: x-large;
+}
+
+.text h2{
+    font-size: medium;
+    width: 96%;
+    margin: auto;
+}
