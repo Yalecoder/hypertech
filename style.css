@@ -157,3 +157,51 @@ ul{
     width: 96%;
     margin: auto;
 }
+
+/*----respec------*/
+
+.respec{
+    color: white;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    background: black;
+}
+
+.respec h1{
+    width: 555px;
+    margin: auto;
+}
+
+.respec h2{
+    width: 700px;
+    margin: auto;
+    font-size: medium;
+}
+
+.stat{
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.sta{
+    border-right: 1px dashed whitesmoke;
+    width: 50%;
+    height: 85px;
+}
+
+.sta h3{
+    color: #A6FCA8;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.sta h5{
+    margin-top: -23px;
+    font-size: small;
+}
+
+.sta:nth-child(4){
+    border: none;
+}
