@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Josefin+Sans:ital,wght@1,300&family=Sansita+Swashed:wght@300&family=Vollkorn+SC&display=swap');
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*-----------Login----------*/
+
+.logo{
+    
+    text-align: center;
+    width: 100%;
+    height: 82px;
+    z-index: 1;
+}
+
+.logo img{
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    filter: brightness(10.5);
+}
+
+.drv{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.dv{
+    background: #01031E;;
+    width: 50%;
+    height: 100%;
+}
+
+.dd{
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+    margin: auto;  
+}
+
+.login{
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    height: 73%;
+}
+
+.login input{
+    font-size: large;
+    color: whitesmoke;
+    border: none;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.login h5{
+    text-align: start;
+    font-size: large;
+    padding: 1px;
+    margin: 13px;
+    color: white;
+}
+
+.dd a{
+    transform: translate(5px, 9px);
+    margin-top: 4px;
+    display: grid;
+    margin: 5px;
+    color: white;
+}
+
+.ddc{
+    text-align: center;
+    color: antiquewhite;
+    bottom: 0;
+    font-size: 7px;
+}
+
+.ddc h1{
+    padding: 0;
+    margin: 0;
+}
+
+.dd button{
+    width: 100%;
+    padding: 10px;
+    background: #DDBB82;
+    margin-top: 13px;
+    float: right;
+    margin-right: 13px;
+    border: none;
+    border-radius: 3px;
+}
+
+.dv:nth-child(2){
+    display: flex;
+    background-position: center;
+    background: url(/img/nasa-1lfI7wkGWZ4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.dr{
+    width: 100%;
+    bottom: 0;
+    height: 45%;
+    position: absolute;
+}
+
+.dvv{
+    animation: offse 0.3s;
+    display: none;
+    align-self: center;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.soc{
+    transform: translate(0px, 52px);
+    height: max-content;
+    color: bisque;
+    text-align: center;
+}
+
+.soc i{
+    padding: 5px;
+    background: #DDBB82;
+    border-radius: 15px;
+    color: darkblue;
+}
+
+
+@keyframes offse{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+/*----------Home-----------------*/
+.nav{
+    width: 100%;
+    height: 500px;
+    background: url(img/gallery-1ce256fce68a97fc51530422a18ac2e0.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nv{
+    display: flex;
+    height: 80px;
+}
+
+.nl{
+    box-shadow: 0px 0px 0px 2px whitesmoke;
+    width: 100%;
+}
+
+.nl ul{
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 80px;
+}
+
+.nl ul li{
+    margin: 20px;
+    align-self: center;
+}
+
+.log img{
+    width: 170px;
+    height: 80px;
+}
+
+.nd{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.nn{
+    width: 530px;
+    margin: auto;
+    text-align: center;
+}
+
+.nn h2{
+    font-size: smaller;
+}
+
+.nn h3{
+    width: 80px;
+    margin: auto;
+    padding: 5px;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 1px cyan;
+}
+
+.nn i{
+    color: #67D5F9;
+    transition: 0.3s;
+    animation: nn infinite 0.7s;
+}
+
+.nn h3:hover i{
+    transition: 0.3s;
+    animation: none;
+}
+
+@keyframes nn{
+    0%{
+        transform: translate(0px);
+    }
+
+    25%{
+        transform: translateY(5px);
+    }
+}
+
+/*---Servicoes----*/
+
+.servic{
+    text-align: center;
+}
+
+.servi{
+    display: flex;
+    width: 60%;
+    height: 340px;
+    margin: auto;
+} 
+
+.serv{
+    margin: auto;
+}
+
+.serl{
+    margin: 20px;
+    width: 190px;
+    display: flex;
+    box-shadow: 0px 0px 0px 2px rgb(98, 218, 230);
+    border-radius: 35px;
+}
+
+.serimg{
+    background: rgb(98, 218, 230);
+    align-self: center;
+    border-radius: 40px;
+}
+
+.serimg img{
+    width: 30px;
+    padding: 11px;
+}
+
+.serl h5{
+    margin-left: 5px;
+}
+
+.serl:nth-child(2){
+    transform: translateX(-58px);
+}
+
+.serd{
+    box-shadow: 0px 0px 0px 2px whitesmoke;
+    margin: 13px auto;
+    width: 80%;
+    display: flex;
+}
+
+.di{
+    margin: 5px;
+    width: 50%;
+}
+
+#dimg{
+    background: azure;
+}
+
+.di img{
+    width: 65%;
+    margin: auto;
+}
+
+.ditype{
+    width: 410px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
+.dity{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: azure 0px 30px 60px -12px inset, azure 0px 18px 36px -18px inset;
+    border-radius: 30px;
+    border-radius: 30px;
+}
+
+.dity img{
+    margin: inherit;
+    width: 39px;
+}
+
+
+.ditext h5{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    padding: 6px;
+}
+
+/*---Cards----*/
+
+.choise{
+
+}
+
+.choise ul{
+    box-shadow: azure 0px 30px 60px -12px inset, azure 0px 18px 36px -18px inset;
+    border-radius: 30px;
+    width: 190px;
+    display: flex;
+    padding: 0;
+    margin: auto;
+}
+
+.choise ul li{
+    transition: 0.3s;
+    width: 92px;
+    line-height: 2;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+.choise ul li:hover{
+    transition: 0.3s;
+    background: brown;
+}
+
+.card{
+    text-align: center;
+    margin-top: 60px;
+    margin: 40px auto;
+}
+
+.card h1{
+    color: rgb(68, 128, 197);
+}
+
+.card h3{
+    opacity: 0.8;
+}
+
+/*----Carousell-----*/
+
+.carousel{
+    display: none;
+    width: 80%;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+    height: 350px;
+    margin: auto;
+}
+
+.caro{
+    height: 100%;
+    transition: 0.3s;
+    width: 70%;
+    white-space: nowrap;
+}
+
+.car{
+    position: relative;
+    white-space: normal;
+    border-radius: 5px;
+    text-align: center;
+    /*box-shadow: 0px 0px 0px 5px whitesmoke;*/
+    box-shadow: rgb(204, 219, 232) 2px 0px 11px 0px inset, rgba(255, 255, 255, 0.5) -4px -3px 5px 1px inset;
+    margin: 5px;
+    width: 230px;
+    height: 100%;
+    display: inline-block;
+}
+
+.car img{
+    width: 100%;
+}
+
+.car h1{
+    font-size: 20px;
+}
+
+.host{
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+}
+
+.host h1{
+    font-size: 45px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+.preco{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 15px;
+}
+
+.preco h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+.preco sup{
+    margin-left: -13px;
+    font-size: large;
+}
+
+.preco sub{
+    margin-left: -6px;
+    color: dimgray;
+}
+
+.text{
+    font-size: 16px;
+    width: 90%;
+    transform: translateY(36px);
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+}
+
+.pric{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.pric a:hover{
+    background-color: aliceblue;
+    color: brown;
+    transition: 0.3s;
+}
+
+.pric a{
+    background: linear-gradient(to right, rgb(127, 127, 213), rgb(134, 168, 231), rgb(145, 234, 228));
+    transition: 0.2s;
+    align-self: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+
+.btn{
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.btn i{
+    font-size: x-large;
+    color: darkgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn button{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.btn1{
+    transform: translate(-11px, -4px);
+    display: flex;
+    background: linear-gradient(270deg, rgba(245, 246, 255, 0) 0%, white 83%);
+    float: left;
+    height: 100%;
+}
+
+.btn2{
+    background: linear-gradient(270deg, rgba(245, 246, 255, 0) 0%, white 88%);
+    width: 40px;
+    display: flex;
+    float: right;
+    height: 100%;
+    transform: rotate(180deg)translate(6px, 10px);
+}
+
+/*----Definicoes*****/
+
+.eet{
+    text-align: center;
+}
+
+.eet h1{
+    color:#469cd1;;
+}
+
+.eet h2{
+    font-size: medium;
+    width: 57%;
+    margin: auto;
+}
+
+.eec{
+    transition: 0.2s;
+    padding: 10px;
+    width: 200px;
+    margin: 35px auto;
+}
+
+.eec:hover{
+    transform: 0.3s;
+    box-shadow: 0px 0px 0px 2px #469cd1;
+    border-radius: 2px;
+}
+
+.eec h3{
+    font-size: smaller;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.eed{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+}
+
+.dde{
+    display: flex;
+    width: 100%;
+    background: whitesmoke;
+}
+
+.dee h1{
+    color: rgb(68, 128, 197);
+}
+
+.dee{
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+.dm{
+    height: 271px;
+    text-align: justify;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.divi{
+    text-align: center;
+    margin: 18px;
+    width: 50%;
+}
+
+.divi img{
+    border-radius: 15px;
+    box-shadow: rgb(68, 128, 197, 0.4) 5px 5px, rgb(68, 128, 197, 0.3) 10px 10px, rgb(68, 128, 197, 0.2) 15px 15px, rgb(68, 128, 197, 0.1) 20px 20px, rgb(68, 128, 197, 0.05) 25px 25px;
+    height: 100%;
+    width: 310px;
+}
+
+.divi h4{
+    text-align: justify;
+}
+
+.divi h2{
+    color: #6297ce;
+    font-size: 27px;
+}
+
+/*--why.------*/
+
+.perg{
+
+}
+
+.per{
+    display: flex;
+    justify-content: center;
+}
+
+.pe{
+    width: 300px;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.pe h2{
+    text-align: center;
+    color: #08AEEA;
+}
+
+.pe h3{
+    font-size: medium;
+}
+
+.perg h1{
+    text-align: center;
+}
+
+.perg h1{
+    color: #08AEEA;
+}
+
+.perg h2{
+    
+}
+
+/*-----Tabs-----*/
+
+.tabs{
+    background-color: whitesmoke;
+    color: rgb(79, 175, 234);
+    position: absolute;
+    width: 100%;
+}
+
+.tt{
+    width: 75%;
+    margin: 20px auto;
+    font-size: large;
+}
+
+.tt li{
+    background: white;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.tabs h1{
+    text-align: center;
+}
+
+.cate{
+    animation: offse 0.1s;
+    background: aqua;
+    color: black;
+    padding: 8px;
+    border-radius: 0px 0px 5px 5px;
+    margin: 4px;
+    transform: translateY(-8px);
+    display: none;
+}
+
+.active{
+    box-shadow: 0px 0px 0px 2px aqua;
+}
+
+footer{
+    background: aqua;
+    width: 100%;
+}
+
+.an{
+    padding: 15px;
+    color: white;
+    width: 85%;
+    margin: auto;
+    border-bottom: 1px solid whitesmoke;
+    height: 80px;
+}
+
+.an h1{
+    float: left;
+    text-align: start;
+}
+
+.top{
+    display: flex;
+    float: right;
+}
+
+#top{
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+.ppo{
+    text-align: center;
+    width: 140px;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.por{
+    font: medium;
+}
+
+.num{
+    font-size: 25px;
+}
+
+.foot{
+    border-bottom: 1px solid whitesmoke;
+    color: black;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.foo{
+    padding: 5px;
+    width: 300px;
+    height: 100%;
+}
+
+.foo ul{
+    padding: 0;
+    margin: 0;
+}
+
+.foo ul li{
+    list-style: inside;
+}
+
+.end{
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.eee{
+    color: white;
+    text-align: center;
+    width: 200px;
+    font-size: x-small;
+    margin: auto;
+}
+
+.eee ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.eee ul li{
+    font-size: x-large;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.eee ul li a{
+    background: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.eee i{
+    color: aqua;
+}
+
+footer h5{
+    opacity: 0.8;
+    font-size: medium;
+    padding: 6px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.newsletter{
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 90%;
+    margin: 15px auto;
+    height: 250px;
+}
+
+/*---MEdia------*/
+@media only screen and (min-width: 1100px){
+    
+
+    .eed{
+        display: flex;
+    }
+}
