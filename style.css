@@ -50,7 +50,7 @@ ul{
 }
 
 .logo img{
-    box-shadow: 0px 0px 0px 2px #326AEC;
+    box-shadow: 0px 0px 0px 2px rgb(166, 252, 168);
     width: 67px;
     border-radius: 60px;
 }
@@ -169,11 +169,13 @@ ul{
 }
 
 .respec h1{
+    transform: translateY(10px);
     width: 555px;
     margin: auto;
 }
 
 .respec h2{
+    transform: translateY(30px);
     width: 700px;
     margin: auto;
     font-size: medium;
@@ -186,6 +188,7 @@ ul{
 }
 
 .sta{
+    transform: translateY(40px);
     border-right: 1px dashed whitesmoke;
     width: 50%;
     height: 85px;
@@ -204,4 +207,94 @@ ul{
 
 .sta:nth-child(4){
     border: none;
+}
+
+/*---PLanos---*/
+
+.planos{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.tabprec{
+    width: 200px;
+    margin: auto;
+}
+
+.tabprec ul{
+    background: whitesmoke;
+    display: flex;
+    border-radius: 30px;
+}
+
+.tabprec ul li{
+    padding: 7px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.preco{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.prec{
+    margin: 15px auto;
+    width: 200px;
+    box-shadow: 0px 0px 0px 2px blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.prec img{
+    width: 55%;
+}
+
+.ptext h1{
+    padding: 0;
+    margin: 0;
+}
+
+.ptext ul{
+    text-align: start;
+    width: 96%;
+    margin: auto;
+}
+
+.ptext ul li{
+    margin: 7px;
+}
+
+.ptext button{
+    margin: 9px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgb(255, 0, 153), rgb(73, 50, 64));
+}
+
+/*---Portfolio----*/
+
+.portfolio{
+    text-align: center;
+}
+
+.portfo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(430px, 1fr));
+}
+
+.port{
+    border-radius: 5px;
+    width: 430px;
+    box-shadow: 0px 0px 0px 1px rgb(166, 252, 168);
+    margin: 9px auto;
+    padding: 4px;
+}
+
+.port img{
+    width: 100%;
 }
